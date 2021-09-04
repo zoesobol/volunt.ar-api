@@ -1,0 +1,28 @@
+# Environments 
+.env 
+.venv 
+env/ 
+venv/ 
+ENV/ 
+env.bak/ 
+venv.bak/ 
+
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+media
+
+
+# Ignore build results
+*.egg-info/
+pip-wheel-metadata/
+dist/
+
+# Ignore stupid .DS_Store
+.DS_Store
+
+#ignore scripts
+*.sh
